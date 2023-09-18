@@ -1,0 +1,106 @@
+.div{
+  
+  width: 100%;
+  height: 100%;
+}
+#gather{
+  width:100%;
+  height:229px;
+  background-color:#f0f1f2;
+}
+#gather .wrap{
+  height:100%;
+  display: flex;
+}
+#gather .wrap .enb{
+  display:flex;
+  height:100%;
+  width: calc(100% / 2);
+}
+#gather .wrap .enb li{
+  width:calc(100% / 3);
+  text-align:center;
+}
+#gather .wrap .enb li:nth-of-type(1)>a{
+  background-image:url(../img/thqkdwjarja.png);
+}
+#gather .wrap .enb li:nth-of-type(2)>a{
+  background-image:url(../img/thqkddkswjs.png);
+}
+#gather .wrap .enb li:nth-of-type(3)>a{
+  background-image:url(../img/thqkdtjfrP.png);
+}
+#gather .wrap .enb li a{
+  width:100%;
+  height:100%;
+  display:block;
+  font-size:0;
+  background:aliceblue 0 center no-repeat;
+  background-size:cover;
+}
+#gather .wrap .gather0{
+  background-color:white;
+  width: calc(100% / 2);
+}
+#gather .wrap .gather0 .gather1{
+  position:relative;
+}
+#gather .wrap .gather0 .gather1>a{
+  position:absolute;
+  right:20px;
+  top:11px;
+  width:42px;
+  height:18px;
+  font-size: 0;
+  background:aliceblue url(../img/tmakxm1.png) no-repeat;
+  background-size:contain;
+  background-position-x: center;
+}
+#gather .wrap .gather0 .gather1 h2.h5{
+  width:100%;
+  line-height:39px;
+}
+#gather .wrap .gather0 .gather1 .h5>a{
+  width:97%;
+  height:100%;
+  display:block;
+  padding-left:20px;
+  font-size:17px;
+  color:#858585;
+  font-weight:bold;
+}
+#gather .wrap .gather0 .gather1 .gather1-1{
+  height:75.5px;
+  width:100%;
+  padding:5px 10px;
+  padding-left:20px;
+  box-sizing:border-box;
+  border-bottom:1px solid #e2e2e2;
+  border-top:1px solid #e2e2e2;
+}
+#gather .wrap .gather0 .gather1 .gather1-1>.gather1-2{
+  height:100%;
+  width:100%;
+}
+#gather .wrap .gather0 .gather1 .gather1-1 > .gather1-2>.go{
+  display:flex;
+  justify-content:space-between;
+  width:85%;
+  line-height:initial;
+}
+#gather .wrap .gather0 .gather1 .gather1-1 > .gather1-2>.go>a{
+  width:293px;
+  line-height:20px;
+  font-size:13px;
+  color:#797979;
+  position: relative;
+}
+#gather .wrap .gather0 .gather1 .gather1-1 > .gather1-2 > .go > a:before{
+  content:'.'; 
+  position:absolute;
+  left:-7px;
+  top:-3px;
+}
+#gather .wrap .gather0 .gather1 .gather1-1 > .gather1-2>.go>p{
+  font-size:12px;
+}

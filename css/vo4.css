@@ -1,0 +1,19 @@
+.vo4{
+  width: 256px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  top: 50px;
+  border-right: 1px solid brown;
+  border-left: 1px solid brown;
+  border-bottom:1px solid brown;
+  box-sizing: border-box;
+  display:none;
+}
+.vo4 h2.hide{
+}
+.vo4 li{
+}
+.vo4 li a{
+}

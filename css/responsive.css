@@ -1,0 +1,336 @@
+@media screen and (max-width:1140px){
+  /*---header 영역---*/
+  header{
+  }
+  header .wrap{
+  width: 100% !important;
+  }
+  /*---enb 영역---*/
+  header .wrap .enb{
+  width: 100% !important;
+  height: 100px;
+  }
+  header .wrap .enb>h1{
+  width: 195px;
+  height: 55px;
+  }
+  header .wrap .enb h1.h4 > .a0{
+  width:183px;
+  height:55px;
+  left: 15px;
+  position: absolute;
+  top:25px;
+  }
+  header .wrap .enb > .enb1-1{
+  position: relative;
+  }
+  header .wrap .enb > .enb1-1>a:nth-child(1){
+  display: none;
+  }
+  header .wrap .enb > .enb1-1>a:nth-child(2){
+  position:absolute;
+  bottom:15px;
+  left:5px;
+  }
+  header .wrap .enb .enb1{
+  display:none;
+  }
+  /*---enb 영역---*/
+  /*---gnb 영역---*/
+  header .wrap .gnb{
+  width: 100% !important;
+  }
+  header .wrap .gnb > .gnb0{
+  width: 100% !important;
+  }
+  header .wrap .gnb .gnb1{
+  width: 100% !important;
+  }
+  header .wrap .gnb .gnb1 > li{
+  width: 92px !important;
+  height: 50px;
+  }
+  header .wrap .gnb .gnb1 > li > a{
+  width: 100% !important;
+  height: 100% !important;
+  }
+  .vo1{
+  width: 100% !important;
+  height: 250px;
+  }
+  .vo2{
+  width: 100% !important;
+  height: 350px;
+  }
+  .vo2>li:nth-of-type(3){
+    
+  font-size: 12px;
+  }
+  .vo2>li:nth-of-type(7){
+  width: 100% !important;
+  height: 50px;
+  font-size: 12px;
+  }
+  .vo3{
+  width: 100% !important;
+  height: 150px;
+  }
+  .vo4{
+  width: 100% !important;
+  height: 250px;
+  }
+  /*---gnb 영역---*/
+  /*---header 영역---*/
+  
+  /*title 영역*/
+  #title{    
+  width:460px;
+  height:320px;
+  }
+  #title > .title1{
+  width: 100% !important;
+  height: 320px;
+  }
+  #title > .title1 img{
+  width: 100%;
+  height: 320px;
+  background: transparent center 0px no-repeat;
+  background-size: cover;
+  }
+  /*title 영역*/
+  
+  /*main-#gather영역*/
+  .div{
+  width: 460px;
+  height: 1239px;
+  }
+  #gather{
+  width:460px;
+  height:177px;
+  }
+  #gather .wrap{
+  width:100%;
+  height:100%;
+  display:block;
+  }
+  #gather .wrap .enb{
+  width:460px;
+  height:100%;
+  }
+  #gather .wrap .gather0 .gather1{
+    
+  }
+  #gather .wrap .gather0{
+  width:460px;
+  display:block;
+  }
+  #gather .wrap .gather0 .gather1 .gather1-1{
+    
+  }
+  /*main-#gather영역*/
+  
+  /*main-#promotion영역*/
+  #promotion{
+  width: 460px;
+  height: 259px;
+  }
+  #promotion .wrap{
+    
+  width: 100% !important;
+  height: 100%;
+  }
+  #promotion .wrap .enb{
+  width: 100% !important;
+  height: ;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  }
+  #promotion .wrap .enb1:not(:#promotion .wrap .enb1 > ul){
+    
+  position: relative;
+  /*! top: 100px; */
+  width: 100% !important;
+  }
+  #promotion .wrap .enb > .enb2-1{
+    
+  width: auto;
+  height: 207px;
+  margin-left: 0px;
+  top: 320px;
+  }
+  #promotion a>img{
+    
+  z-index: 998;
+  top: ;
+  }
+  #promotion .slick-slide img{
+  width: 460px;
+  position: relative;
+  height: 100%;
+  }
+  #promotion .wrap .enb1{
+    
+  width: 100%;
+  height: 100% !important;
+  }
+  #promotion .wrap .enb1:not(.menu)>span{
+  width: 460px;
+  top: 239px;
+  position: relative;
+  z-index: 1;
+  }
+  #promotion .wrap .enb1:not(.menu)> .fop{
+  width: 460px;
+  top: 239px;
+  position: relative;
+  z-index: 1;
+  height: 129px;
+  font-size: 0;
+  }
+  #promotion .wrap .enb1:not(.menu) > .fop>a{
+  position: absolute;
+  width: 142px;
+  height: 40px;
+  background: white url(../img/tkdeka.png.png) 0 center no-repeat;
+  background-size: contain;
+  top: 25px;
+  right: 15px;
+  }
+  #promotion .wrap .enb1:not(.menu) > .fop > a:hover::before{
+    content:"";
+    position: absolute;
+    width: 75px;
+    height: 1px;
+    background-color: white;
+    right: 37px;
+    top: 28px;
+  }
+  #promotion .wrap .enb1 > ul{
+  top: calc(100% + 150px);
+  width: 460px;
+  left: -30px;
+  }
+  #promotion .wrap .enb1 > ul > li{
+    
+  border: none;
+  }
+  #promotion .wrap .enb1 > ul > li > a{
+  background-position-x: center;
+  background-color: transparent;
+  background-size: contain;
+  }
+  #promotion .wrap .enb .enb2 img{
+  display: none;
+  }
+  #promotion .wrap .enb .enb2{
+  display: none;
+  }
+  /*main-#promotion영역*/
+  /*#main-circularforce영역*/
+  #circularforce{
+    
+  width: 80% !important;
+  height: 264px;
+  background-color: transparent;
+  margin: 10px auto 30px;
+  position: relative;
+  top: 42.6%;
+  margin-bottom: 0px;
+  }
+  #circularforce .wrap{
+    
+  width: 100% !important;
+  height: 100% !important;
+  }
+  #circularforce .wrap .enb{
+    
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  }
+  #circularforce .wrap .enb li{
+    
+  height: 87px;
+  width: 100% !important;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #ccc;
+  align-items: center;
+  }
+  #circularforce .wrap .enb li:nth-of-type(3){
+  border-bottom: 1px solid #ccc;
+  }
+  #circularforce .wrap .enb li > .fo{
+    
+  padding: 15px 25px;
+  }
+  #circularforce .wrap .enb li h2.h5{
+    
+  font-size: inherit;
+  font-weight: bold;
+  }
+  #circularforce .wrap .enb li p.p{
+    
+  color: #676767;
+  }
+  /*#main-circularforce영역*/
+  
+  /*footer 영역*/
+  footer{
+  width:460px;
+  height:264px;
+  }
+  footer .wrap{
+  width:100% !important;
+  height:100%;
+  }
+  footer .wrap .good{
+  width:100% !important;
+  height:100%;
+  grid: none;
+  }
+  footer .wrap .good h2.h5{
+  padding: 0px 10px;
+  }
+  footer .wrap .good h2.h5 span{
+  width: 140px;
+  height: 44px;
+  background: aliceblue url(../img/wntmakxm.png) no-repeat;
+  background-size: contain;
+  }
+  footer .wrap .good address{
+  padding:8px 10px 18px 10px;
+  clear:both;
+  float:none;
+  font-size:12px;
+  border:none;
+  box-sizing:border-box;
+  }
+  footer .wrap .good address p{
+  font-size:inherit;
+  color:#666666;
+  display: block;
+  }
+  footer .wrap .good address p>span{
+    
+  }
+  footer .wrap .good form{
+  width: 162px;
+  height: 34px;
+  }
+  footer .wrap .good form select{
+  left:13px;
+  top:-3px;
+  height:34px;
+  }
+  footer .wrap .good form::before{
+    
+  top: 2px;
+  left: 100%;
+  z-index: 3;
+  background: #e2e2e2 url(../img/dnlfh.png);
+  background-position-y: bottom;
+  }
+  /*footer 영역*/
+}

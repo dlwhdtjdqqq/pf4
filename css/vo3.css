@@ -1,0 +1,19 @@
+.vo3{
+  width: 256px;
+  height: 150px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  top: 50px;
+  border-right: 1px solid brown;
+  border-left: 1px solid brown;
+  border-bottom:1px solid brown;
+  box-sizing: border-box;
+  display:none;
+}
+.vo3 h2.hide{
+}
+.vo3 li{
+}
+.vo3 li a{
+}
